@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="arcade, arcade machines, retro games">
+  <meta name="description" content="Website project about arcade machines and retro games">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/websitelogo.jpg" sizes="16x16">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <title>Retro Arcade Machines</title>
+</head>
+<body style="background-image: url('images/arcadebackground.jpg'); background-repeat: no-repeat; background-position: center center; background-size: cover; background-attachment: fixed; color: #eee; font-family: Arial, sans-serif; line-height: 1.6; padding: 20px;">
+
+  <header>
+    <img class="logo" src="images/websitelogo.jpg" alt="Retro Arcade Logo">
+    <img class="banner" src="images/arcadebanner.jpg" alt="Arcade banner with neon lights">
+    <h1 style="text-align: center;">Retro Arcade Machines</h1>
+    <h2 class="navHeader">Navigation</h2>
+    <nav>
+      <ul>
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="RetroGames.html">Retro Games</a></li>
+        <li><a href="ArcadesNearYou.html">Arcades Near You</a></li>
+        <li><a href="FunFacts.html">Fun Facts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <img class="pong" src="images/pong.jpg" alt="Pong arcade machine" style="float: right; height: 15%; width: 15%;">
+
+  <main>
+    <article>
+      <h2>A brief history of arcade machines</h2>
+      <p>Arcade machines began in the early 20th century with mechanical games like pinball. In the late 1970s, video arcade games appeared, with one of the first being Pong in 1972. It was a simple ping pong game where a dot bounced between two lines on a screen. The late 70s and early 80s became known as the golden age of arcade machines, with games like Donkey Kong and Pac-Man becoming popular.</p>
+
+      <p>Arcades became really popular among kids, teens, and young adults. They were mostly found in malls and amusement parks. In the 1990s, fighting games like Street Fighter and Mortal Kombat became extremely popular and brought a resurgence of new players, but this was mostly futile as the rise of home consoles slowly killed the arcade market. Arcades and arcade machines still exist today, often appealing to nostalgia or providing a gameplay experience you can’t get at home, such as Dance Dance Revolution or racing simulators.</p>
+
+      <h2>Here is a great video on the topic</h2>
+      <iframe id="youtubevid" width="560" height="315" src="https://www.youtube.com/embed/Dvdc87VfKAU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </article>
+  </main>
+
+  <section class="contactform">
+    <h3>See any info that is wrong? Let me know!</h3>
+    <form action="actionplace.php" method="post">
+      <label class="required" for="firstname">First Name</label>
+      <input type="text" name="firstname" id="firstname" placeholder="Your first name here please." required>
+
+      <label class="required" for="lastname">Last Name</label>
+      <input type="text" name="lastname" id="lastname" placeholder="And your last name here" required>
+
+      <label class="required" for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="Your email here" required>
+
+      <label class="required" for="wronginfo">Please tell me what info is wrong</label>
+      <textarea id="wronginfo" name="wronginfo" placeholder="Please let me know..." style="height: 150px;"></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 College Project</p>
+  </footer>
+
+</body>
+</html>
